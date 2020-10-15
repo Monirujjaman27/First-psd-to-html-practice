@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap4</title>
+</head>
+<body>
+
+
+ <nav class="navbar navbar-light bg-light navbar-expand-md align-middle">
+         <div class="container">
+               <a class="navbar-brand img-fluid" href="index.html">
+                 <img src="img/domain.png" alt="logo">
+               </a>
+               <button class="navbar-toggler" type="button" name="button" data-toggle="collapse" data-target="#navMenue">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+           <div id="navMenue" class="navbar-collapse collapse">
+             <ul class="navbar-nav ml-auto text-uppercase text-dark">
+               <li class="nav-item active mr-3 dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#homeSection">Home</a>
+                <ul class="text-uppercase dropdown-menu">
+                  <li class="list-items dropdown-item dropdown"><a class="list-link dropdown-toggle" data-toggle="dropdown" 
+                    href="#googlemap.html">googlemap</a>
+                    <ul class="text-uppercase dropdown-menu dropdownMenuSecond">
+                      <li class="list-items dropdown-item dropdown-item"><a class="list-link" href="#">google map</a></li>
+                      <li class="list-items dropdown-item"><a class="list-link" href="#">zoom plugeins</a></li>
+                      <li class="list-items dropdown-item"><a class="list-link" href="#">price slider</a></li>
+                      <li class="list-items dropdown-item"><a class="list-link" href="#">counter up</a></li>
+                      <li class="list-items dropdown-item"><a class="list-link" href="#">count down</a></li>
+                    </ul>
+                  </li>
+                  <li class="list-items dropdown-item"><a class="list-link" href="#">zoom plugeins</a></li>
+                  <li class="list-items dropdown-item"><a class="list-link" href="#">price slider</a></li>
+                  <li class="list-items dropdown-item"><a class="list-link" href="#">counter up</a></li>
+                  <li class="list-items dropdown-item"><a class="list-link" href="#">count down</a></li>
+                </ul>
+              </li>
+               <li class="nav-item hover mr-3"><a class="nav-link" href="#serviceArea">Service</a></li>
+               <li class="nav-item hover mr-3"><a class="nav-link" href="#blogsInfo">Blog</a></li>
+               <li class="nav-item hover mr-3"><a class="nav-link" href="#servces-section">Contact Us</a></li>
+               <li class="nav-item hover mr-3"><a class="nav-link" href="http://designhost.rf.gd/">Protfolio</a></li>
+             </ul>
+             <i class="fa fa-search text-dark" data-toggle="collapse" data-target="#inputForm"></i>
+           </div>
+         </div>
+       </nav>
+       <form action="" class="inputSection">
+             <div id="inputForm" class="form-group collapse">
+                 <input class="form-control" type="text" name="" id="" placeholder="sarch">
+             </div>
+         </form>
+
+<!-- slider area -->
+<section id="sliderArea" class="">
+    <div id="myCarosel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-slide-to="0" dara-terget="#myCarosel" class="active"></li>
+        <li data-slide-to="1" dara-terget="#myCarosel"></li>
+        <li data-slide-to="2" dara-terget="#myCarosel"></li>
+      </ol>
+      <div class="carousel-inner pt-5">
+        <div class="carousel-item active" data-interval="500">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <div class="row">
+                <div class="col py-4">
+                  <h1 class="sliderHeading text-uppercase font-weight-bold">responsive design</h1>
+                </div>
+              </div>
+                <div class="row">
+                  <div class="col-xl-8 float-left">
+                    <p class="text-left lead sliderText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, expedita quibusdam distinctio corporis nam accusantium inventore omnis nihil illo rem? Repellat ad, beatae illo pariatur quod saepe rem vel nemo!
+                     <strong><a class="text-primary" href="#">read more</a></strong></p>
+                 </div>
+                 <div class="col-xl-4 float-right">
+                   <img class="img-fluid h-100 w-100" src="img/responsive.png" alt="image">
+                 </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+                <div class="col-xl-8 float-left">
+                    <h3 class="text-uppercase text-light  font-weight-bold">slide 1</h3>
+                    <h1 class="sliderHeading text-uppercase text-light display-1 font-weight-bold">Dream big</h1>
+                    <a href="" class="btn btn-primary text-uppercase font-weight-bold"> learn more</a>
+                </div>
+                <div class="col-xl-4 float-right">
+                  <img class="img-fluid" src="img/slide1.png" alt="image">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+                <div class="row">
+                    <div class="col-xl-4 float-right">
+                        <img class="img-fluid" src="img/slide1.png" alt="image">
+                      </div>
+                    <div class="col-xl-8 float-left pb-5">
+                        <h3 class=" text-uppercase text-light font-weight-bold">slide 2</h3>
+                        <h1 class="sliderHeading text-uppercase text-light font-weight-bold display-3">work heard</h1>
+                        <a href="" class="btn btn-primary text-uppercase font-weight-bold">learn more</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+<!-- hire us area -->
+<section id="hireUsArea" class="bg-primary ">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex text-middle py-3 mt-2">
+           <div class="float-left col-xl-10">
+              <p class="text-white">We’ve completed more than <span class="font-weight-bold">100+</span> project for our amazing clients, If you interested?</p>
+           </div>
+            <div class=" col-xl-2 float-right">
+                <a href="#" class="btn btn-outline-light text-white rounded-0 text-capitalize">hire us</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- boxe area  -->
+<section id="boxArea" class="my-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xl-4 col-md-4">
+        <div class="boxContet text-center">
+          <div class="boxImage">
+            <img class="img-fluid" src="img/iconbox_04.jpg" alt="image">
+          </div>
+          <div class="card bg-primary px-4 pt-2 rounded-0 text-center">
+              <div class="d-flex">
+                  <i class="headingIcone pr-2 fa fa-bar-chart text-light p-1"></i>
+                  <h4 class="text-capitalize text-light">Top Investment Advisors</h4>
+                </div>
+                <div>
+                  <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in. Aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis saepe minus!</p>
+                </div>
+                <div>
+                  <i class="secondIcon fa fa-plus text-white"></i>
+                  <a href="#" class="text-capitalize text-light">read me</a>
+                </div>
+            </div>
+        </div>
+      </div> 
+      <div class="col-xl-4 col-md-4">
+        <div class="boxContet">
+          <div class="boxImage">
+            <img class="img-fluid" src="img/iconbox_02.jpg" alt="image">
+          </div>
+          <div class="card bg-primary px-4 pt-2 rounded-0">
+              <div class="d-flex">
+                  <i class="headingIcone pr-2 fa fa-cogs text-light p-1"></i>
+                  <h4 class="text-capitalize text-light">Growth Hacking and Success</h4>
+                </div>
+                <div>
+                  <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in. Aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis saepe minus!</p>
+                </div>
+                <div>
+                  <i class="secondIcon fa fa-plus text-white"></i>
+                  <a href="#" class="text-capitalize text-light">read me</a>
+                </div>
+            </div>
+        </div>
+      </div> 
+      <div class="col-xl-4 col-md-4">
+        <div class="boxContet">
+          <div class="boxImage">
+            <img class="img-fluid" src="img/iconbox_03.jpg" alt="image">
+          </div>
+          <div class="card bg-primary px-4 pt-2 rounded-0">
+              <div class="d-flex">
+                  <i class="headingIcone pr-2 fa fa-line-chart text-light p-1"></i>
+                  <h4 class="text-capitalize text-light">Business Performance</h4>
+                </div>
+                <div>
+                  <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in. Aut? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis saepe minus!</p>
+                </div>
+                <div>
+                  <i class="secondIcon fa fa-plus text-white"></i>
+                  <a href="#" class="text-capitalize text-light">read me</a>
+                </div>
+            </div>
+        </div>
+      </div> 
+    </div>
+</section>
+
+<!-- we are bimex area -->
+<section id="fetureArea" class="bg-light my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 my-5 pb-5">
+          <h2 class="text-uppercase font-weight-bold text-center">We are stay with you </h2>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-laptop align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-gear align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-pencil align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-mobile align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-envelope align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+      <div class="col-xl-4 col-md-6 my-4">
+          <div class="d-flex">
+              <div class="weAreBimexIconeArea col-xl-2 col-md-2 col-sm-2">
+                  <i class="firstIcon fa fa-cloud align-middle text-light p-3 mt-md-2 bg-primary"></i>
+              </div>
+              <div class="col-xl-10">
+                  <h5 class="text-capitalize">responsive design</h5>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur molestiae rerum sed libero in.</p>
+                </div>
+             </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- letest project -->
+
+<section id="letestProject" class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col my-5">
+          <h1 class="text-center text-light text-uppercase font-weight-bold">our letest project</h1>
+      </div>
+    </div>
+    <div class="row owl-carousel owl-theme owl-loaded">
+      <img class="py-5" src="img/project_04.jpg" alt="">
+      <img class="py-5" src="img/project_01.jpg" alt="">
+      <img class="py-5" src="img/project_03.jpg" alt="">
+      <img class="py-5" src="img/project_04.jpg" alt="">
+      <img class="py-5" src="img/project_03.jpg" alt="">
+      <img class="py-5" src="img/project_01.jpg" alt="">
+      <img class="py-5" src="img/project_03.jpg" alt="">
+      <img class="py-5" src="img/project_04.jpg" alt="">
+      <img class="py-5" src="img/project_03.jpg" alt="">
+      <img class="py-5" src="img/project_01.jpg" alt="">
+      <img class="py-5" src="img/project_04.jpg" alt="">
+      <img class="py-5" src="img/project_01.jpg" alt="">
+    </div>
+  </div>
+</section>
+<!-- why choose us area -->
+<section id="whyChoose">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="text-uppercase font-weight-bold">why choose us</h2>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-xl-6 mb-md-5">
+        <div class="">
+            <img class="img-fluid" src="img/video_01.jpg" alt="vedio image">
+            <i class="fa-fa-youtube text-dark"></i>
+        </div>
+      </div>
+      <div class="col-xl-6 textAreaColum">
+            <div class="textArea pb-4">
+                <i class="fa fa-gear float-left"></i>
+                <h6 class="text-capitalize mx-5 font-weight-bold">awesome design</h6>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aut et dignissimos dicta sequi magni molestias amet.</p>
+            </div>
+            <div class="textArea pb-4">
+                <i class="fa fa-pencil float-left"></i>
+                <h6 class="text-capitalize mx-5 font-weight-bold">flexible layout</h6>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aut et dignissimos dicta sequi magni molestias amet.</p>
+            </div>
+            <div class="textArea">
+                <i class="fa fa-gear float-left"></i>
+                <h6 class="text-capitalize mx-5 font-weight-bold">easy to use</h6>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aut et dignissimos dicta sequi magni molestias amet.</p>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- working with us area -->
+<section id="workingWithUsArea" class="my-5 bg-light py-xl-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 text-center font-weight-bold pt-5 mb-md-5 mb-sm-5">
+        <h2 class="font-weight-bold text-uppercase py-5">work with us</h2>
+        <p>We’ve completed more than 100+ project for our am azing clients, If you interested?</p>
+        <a href="#" class="btn btn-primary rounded-0">learn more</a>
+      </div>
+      <div class="col-xl-6">
+        <img class="img-fluid" src="img/photo1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- blogs and testimonial area -->
+<section id="bloAndTmonial" class="mt-5 mb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-md-6">
+        <div>
+            <h4 class="text-uppercase font-weight-bold">letest blog post</h4>
+            <i class="fa fa-angel-left text-dark"></i>
+        </div>
+        <div class="d-flex">
+            <div class="col-xl-4">
+                <img class="img-fluid" src="img/blog_01.jpg" alt="img">
+              </div>
+              <div class="col-xl-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos blanditiis numquam adipisci deserunt inventore quaerat? </p>
+              </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-md-6">
+          <div>
+              <h4 class="text-uppercase font-weight-bold">testimonials</h4>
+              <i class="fa fa-angel-left text-dark"></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus porro doloremque similique ad commodi error et neque, ipsa quo natus modi quaerat deleniti. Ducimus sunt sint aut optio fuga distinctio.</p>
+          <hr>
+          <div class="d-flex userImage">
+            <img class="img-fluid h-25 w-25" src="img/user_02.png" alt="user image">
+            <div class="userText px-3 pb-0 mb-0">
+                <h5 class="text-uppercase">jhon doe</h5>
+                <h6 class="text-capitalize">product manager</h6>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- counter jquery test -->
+<section id="ctrQueryTest" class="mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <span class="pr-5 display-1 counter font-weight-bold">100</span>
+        <span class="pr-5 display-1 counter font-weight-bold">300</span>
+        <span class="pr-5 display-1 counter font-weight-bold">600</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section wraper -->
+<section id="sectionWrapper" class="bg-light py-5">
+  <div class="container">
+    <div class="col">
+      <div class="sliderImg text-center"> 
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_01.png" alt="image">
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_02.png" alt="image">
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_03.png" alt="image">
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_04.png" alt="image">
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_05.png" alt="image">
+      <img class="px-xl-1 px-md-0 img-fluid" src="img/partner_06.png" alt="image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer area start -->
+<footer class="bg-dark pt-5 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-md-3 col-sm-6">
+        <div>
+            <img src="img/domain.png" alt="logo">
+            <p class="pt-5 pb-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error autem nisi nam cum beatae dignissimos quidem asperiores, dolor repellat enim, tempore reiciendis nesciunt quis ?</p>
+        </div>
+        <div class="socal-icone">
+          <i class="fa fa-facebook mx-2 p-2"></i>
+          <i class="fa fa-twitter mx-2 p-2"></i>
+          <i class="fa fa-linkedin mx-2 p-2"></i>
+          <i class="fa fa-google mx-2 p-2"></i>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-3 col-sm-6">
+        <h4 class="text-uppercase">Features</h4>
+        <ul class="pt-5 pl-0 ml-3">
+          <li class="pt-3"><a class="text-white" href="#">About Us</a></li>
+          <li class="pt-3"><a class="text-white" href="#">Our Story</a></li>
+          <li class="pt-3"><a class="text-white" href="#">Terma & Conditions</a></li>
+          <li class="pt-3"><a class="text-white" href="#"> Privacy Policy</a></li>
+          <li class="pt-3"><a class="text-white" href="#"> Sites Map</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-3 col-md-3 col-sm-6">
+        <div>
+          <h4 class="text-uppercase">contact us</h4>
+          <img class="img-fluid mt-3" height="200px" width="200px" src="img/shortsizeImage - Copy.jpg" alt="image">
+          <ul class=" list-unstyled">
+            <li class="py-2">Address: Suihari, Dinajpur, Rongpur, Bangladesh</li>
+            <li class="py-2">Phone: +8801518488865</li>
+            <li class="py-2">Email: mun19971227@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-3 col-sm-6">
+        <div class="">
+          <h4 class="text-uppercase">Newslleter</h4>
+          <p class="mt-5"> Subscribe to Newsletters and Stay informed about our news and events</p>
+        </div>
+          <input class="text-capitalize form-control" type="text" placeholder="your name">
+          <input class="text-capitalize form-control my-2" type="email" placeholder="your email">
+          <textarea class="form-control" name="" id="" rows="2" placeholder="Massage"></textarea>
+          <button class="btn btn-primary btn-block mt-2"> submite</button>
+      </div>
+    </div>
+  </div>
+ <!-- sub footer area -->
+  <div id="" class="text-center mt-5 subFooter ">
+    <div class="row">
+      <div class="col">
+        <p class="py-4">Copyright © 2018 Designed by moner. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

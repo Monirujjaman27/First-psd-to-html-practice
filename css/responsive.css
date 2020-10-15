@@ -1,0 +1,44 @@
+
+  @media(min-width:300px) and (max-width:575px){
+    .weAreBimexIconeArea {
+      width: 50px;
+      padding: 5px;
+    }
+    #workingWithUsArea .text-center {
+      text-align: center !important;
+      margin-bottom: 20px;
+    }
+    .sliderHeading {
+      font-size: 20px;
+    }
+    .sliderText {
+      font-size: 10px;
+    }
+    #boxArea .boxContet .card {
+      width: 350px !important;
+
+    }
+}
+
+
+
+
+
+  @media(min-width:576px) and (max-width:767px){
+    .textAreaColum {
+      margin-top: 55px;
+    }
+    #boxArea .boxContet .card {
+      width: 350px !important;
+
+    }
+}
+
+  @media(min-width:768px) and (max-width:991px){
+    .sliderImg img {
+        width: 100px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1300px){
+}

@@ -1,0 +1,147 @@
+.inputSection {
+  position: absolute;
+  float: right;
+  z-index: inherit 99;
+}
+
+#navMenue .dropdown .dropdown-menu {
+	background-color: #90d280;
+	transition: 0.3s !important;
+	padding: 0 0;
+	top: 87%;
+}
+#navMenue .dropdown .dropdown-menu .dropdown-item {
+  font-weight: 500;
+  background-color: #5965c100;
+  border-bottom: 2px solid aliceblue;
+}
+#navMenue .dropdown .dropdown-menu .dropdown-item a {
+  color: #586d84;
+}
+#navMenue .dropdown .dropdown-menu .dropdown-item .dropdownMenuSecond {
+	left: 170px;
+	top: 20px;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none !important;
+}
+
+.dropdown-item:hover {
+  background-color: #d5d5d5 !important;
+}
+
+#sliderArea {
+  background: url(../img/sideing.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#sliderArea .carousel-item {
+  height: 400px;
+}
+
+.carousel-indicators {
+	bottom: 45px;
+}
+
+#boxArea .boxContet {
+  position: relative;
+  overflow: hidden;
+}
+#boxArea .boxContet .boxImage img {
+  height: 250px;
+  width: 350px;
+}
+#boxArea .boxContet .card {
+	height: 250px;
+	width:100%;
+	position: absolute;
+	top: 0%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: translateY(80%);
+	transition: all 0.5s ease 0s;
+	margin-left: auto;
+	margin-right: auto;
+}
+#boxArea .boxContet .card i.headingIcone {
+  font-size: 30px;
+  margin-right: 6px;
+}
+#boxArea .boxContet .card h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(0%) !important;
+}
+
+#letestProject {
+  background: #222222;
+}
+
+#whyChoose img-fluid {
+  position: relative;
+}
+#whyChoose .fa {
+  position: absolute;
+  z-index: 9999;
+  height: 50px;
+  width: 50px;
+  top: auto;
+  left: auto;
+}
+#whyChoose .textArea {
+  font-size: 16px;
+  color: #5f5a5a;
+}
+#whyChoose .textArea .fa {
+  font-size: 30px;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  transform: translateY(-50%);
+  font-size: 79px !important;
+  color: #fff !important;
+  left: auto;
+  width: 100px;
+  height: 100px;
+  line-height: 40px !important;
+  background: none !important;
+}
+.owl-nav .owl-prev {
+  left: 0;
+}
+.owl-nav .owl-next {
+  right: 0;
+}
+
+#workingWithUsArea p {
+  color: #5f5a5a;
+}
+
+#bloAndTmonial .userImage {
+  height: 200px;
+  width: 200px;
+}
+#bloAndTmonial .userImage .userText h5 {
+  font-size: 13px;
+  font-weight: 600;
+}
+#bloAndTmonial .userImage .userText h6 {
+  font-size: 12px;
+}
+
+.subFooter {
+  border-top: 1px solid #645E5E;
+}
+
+/*# sourceMappingURL=style.css.map */
